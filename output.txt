@@ -1,0 +1,59 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.eagle:gav-collector >-----------------------
+[INFO] Building gav-collector 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The artifact mysql:mysql-connector-java:jar:8.0.33 has been relocated to com.mysql:mysql-connector-j:jar:8.0.33: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (prepare-agent) @ gav-collector ---
+[INFO] argLine set to -javaagent:d:\\maven\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.7\\org.jacoco.agent-0.8.7-runtime.jar=destfile=D:\\projects\\java\\eagle_cyclonedx\\gav-collector\\target\\jacoco.exec
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ gav-collector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ gav-collector ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ gav-collector ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ gav-collector ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to D:\projects\java\eagle_cyclonedx\gav-collector\target\test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/projects/java/eagle_cyclonedx/gav-collector/src/test/java/com/eagle/gav/utils/RequestMaven2Test.java:[34,9] 不是语句
+[ERROR] /D:/projects/java/eagle_cyclonedx/gav-collector/src/test/java/com/eagle/gav/utils/RequestMaven2Test.java:[34,18] 需要';'
+[INFO] 2 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.655 s
+[INFO] Finished at: 2023-12-28T23:13:45+08:00
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 3 plugin(s)
+[WARNING] 
+[WARNING]  * org.jacoco:jacoco-maven-plugin:0.8.7
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.10.1
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:testCompile (default-testCompile) on project gav-collector: Compilation failure: Compilation failure: 
+[ERROR] /D:/projects/java/eagle_cyclonedx/gav-collector/src/test/java/com/eagle/gav/utils/RequestMaven2Test.java:[34,9] 不是语句
+[ERROR] /D:/projects/java/eagle_cyclonedx/gav-collector/src/test/java/com/eagle/gav/utils/RequestMaven2Test.java:[34,18] 需要';'
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
